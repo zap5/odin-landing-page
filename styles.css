@@ -1,10 +1,11 @@
 * {
     font-family: "Arial";
+    border: 2px solid red;
 }
 
 .header {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     height: 100px;
     background: #1F2937;
     color: white;
@@ -12,18 +13,26 @@
 
 .header-logo {
     font-family: "Arial";
-    font-size: 48px;
+    font-size: 24px;
     flex: 1 1 0;
 }
 
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
-    align-self: right;
+    display: block;
+    text-align: right;
     flex: 1 1 0;
+}
+
+.nav-link {
+    align-self: right;
 }
 
 button {
     background-color: #3882F6;
     color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 4px;
 }
