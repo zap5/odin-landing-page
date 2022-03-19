@@ -86,15 +86,29 @@ button {
     text-align: center;
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .random-images-with-captions {
     display: flex;
+    justify-content: center;
 }
 
 .random-rectangle {
     border: 3px solid #3882F6;
     border-radius: 8px;
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
