@@ -173,3 +173,12 @@ button {
     width: 100px;
     border-radius: 8px;
 }
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    line-height: 100px;
+}
