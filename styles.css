@@ -71,8 +71,30 @@ button {
     background-color: #3882F6;
     color: white;
     height: 30px;
-    width: 90px;
+    width: 100px;
     border-radius: 8px;
     border: none;
     margin-top: 0px;
+}
+
+.random-info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.random-images-with-captions {
+    display: flex;
+}
+
+.random-rectangle {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 120px;
+    width: 120px;
 }
